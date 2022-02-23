@@ -1,0 +1,121 @@
+
+.input-address {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    box-shadow: 0 0 5px black;
+    margin: 0 auto;
+    background-color: white;
+    
+}
+.input-address .tieude{
+    font-family: 'Montserrat';
+    font-size: larger;
+    border-bottom: 1px solid black;
+    color: var(--black-color);
+}
+.input-address .input-field {
+    padding: 0 5px;
+    width: 100%;
+    margin: 8px 0;
+    color: var(--black-color);
+}
+
+.input-address .input-field > label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.input-address .input-field > input {
+    min-height: 48px;
+    border-radius: 2px;
+    border: 1px solid var(--border-color);
+    width: 100%;
+    padding: 0 12px;
+    letter-spacing: 0.2px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-color: beige;
+}
+
+.input-address .input-field.f-first-name{
+    width: 50%;
+}
+
+.input-address .input-field.f-city {
+    width: 60%;
+}
+.input-address .province-wrappe {
+    display: flex;
+    align-items: center;
+}
+
+.input-address .input-field #select-province {
+    height: 48px;
+    width: 100%;
+    margin-right: -30px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 12px;
+    appearance: none;
+    outline: none;
+}
+
+.input-address .input-field .icon-arrow {
+    width: 10px;
+    pointer-events: none;
+    opacity: 0.7;
+    color: var(--btn-color);
+
+}
+
+.input-address .input-field.country {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.input-address .input-field.country > h5 {
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.input-address .input-field.country > span {
+    text-transform: initial;
+    padding: 0 5px;
+    font-size: 13px;
+}
+
+.btn-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.btn-style {
+    letter-spacing: 2px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    color: var(--white-color);
+    background-color: var(--black-color);
+    padding: 8px 20px;
+    width: 49.5%;
+    border-radius: 2px;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+}
+
+.btn-style:hover {
+    opacity: 0.8;
+}
+
+.btn-reset {
+    background-color: #5a17f7;
+}

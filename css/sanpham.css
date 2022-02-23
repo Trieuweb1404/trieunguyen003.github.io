@@ -1,0 +1,48 @@
+.column{
+    width: 25%;
+    float: left;
+}
+.san-pham{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    padding: 10 px;
+    margin: 5px;
+    text-align: center;
+    background-color: white;
+}
+.san-pham .ten{
+    font-size: larger;
+    font-variant: small-caps;
+    color: blue;
+}
+.san-pham img{
+    max-width: 95%;
+}
+.san-pham>.sa>a>img:hover{
+    transform: scale(0.9);
+}
+.san-pham .gia{
+    color: red;
+    font-weight: bold;
+    font-size: larger;
+}
+.san-pham .gia del{
+    color: gray;
+}
+.san-pham>a{
+    text-decoration: none;
+    color: red;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 10% 10% 10% 10%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.san-pham>a:hover{
+    background-color: green;
+
+}
+.cot{
+    content: "";
+    display: table;
+    clear: both;
+}
